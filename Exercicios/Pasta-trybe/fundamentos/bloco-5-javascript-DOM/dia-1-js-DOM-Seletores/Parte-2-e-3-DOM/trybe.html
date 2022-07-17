@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trybe DOM</title>
+</head>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+	  <p class="paragraph-1">Segundo parágrafo!</p>
+	  <p class="paragraph-1">Segundo parágrafo!</p>
+    </header>
+    <script>
+		const paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "green";
+	  document.querySelector("#page-title").innerText="Semana da minha Vida";
+	  document.querySelector("#second-paragraph").innerText="e um filme de um pessoa rebelde que vai a um acampanhamento cristao e em uma semana muda vida dele.";
+	  document.querySelectorAll(".paragraph-1")[0].innerText="varios eventos";
+	  document.querySelectorAll(".paragraph-1")[1].innerText="varios eventos";
+	  const  paragrafo =  document.querySelectorAll(".paragraph-1")[0];
+	   paragrafo.style.color ="red";
+	   let color = document.querySelectorAll("#subtitle")[0];
+	   color.style.color = "red";
+	  </script>
+</body>
+</html>

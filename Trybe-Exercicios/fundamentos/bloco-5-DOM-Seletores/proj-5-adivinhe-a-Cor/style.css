@@ -1,0 +1,101 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+header{
+	display: inline-block;
+	height: 200px;
+}
+#first{
+	display: flex;
+	position: relative;
+	left: 95%;
+	top: 1px;
+	height: 80px;
+}
+
+#funcionamento{
+	display: flex;
+	position: relative;
+	left: 80%;
+	top: 10%;
+	height: 100px;
+	color: rgb(128,128,128);
+}
+#input{
+	display: flex;
+	position: relative;
+	left: 75%;
+}
+#list{
+	display: flex;
+	position: relative;
+	left: 75%;
+	width: 120px;
+}
+.selected {
+	background-color: rgb(128,128,128);
+}
+.completed{
+	text-decoration: line-through;
+}
+#apaga-tudo{
+	display: flex;
+	position: relative;
+	left: 20px;
+	top: 210px;
+}
+#salvar-tarefas{
+	display: flex;
+	position: absolute;
+	left: 730px;
+	top: 30%;
+}
+#remover-finalizados{
+	display: flex;
+	position: absolute;
+	left: 54%;
+	top: 35%;
+}
+#remover-selecionado{
+	display: flex;
+	position: absolute;
+	left: 54%;
+	top: 40%;
+}
+#mover-baixo{
+	display: flex;
+	position: relative;
+	left: 450px;
+	top: 1;
+}
+#mover-cima{
+	display: flex;
+	position: relative;
+	left: 90%;
+	top: 21px;
+	width: 50px;
+}
+#apaga-tudo{
+	display: flex;
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	width: 97px;
+}
+
+
+main{
+	width: 600px;
+	height: 300px;
+}
+body{
+	width: 600px;
+	height: 500px;
+}
+#first{
+	top: 50px;
+}
+#second {
+	bottom: 50px;
+}

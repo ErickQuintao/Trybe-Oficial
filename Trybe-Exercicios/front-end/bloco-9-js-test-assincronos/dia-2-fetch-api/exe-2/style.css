@@ -1,0 +1,10 @@
+ul{
+	display: flex;
+	width: 200px;
+	height: 60px;
+}
+li{
+	display: flex;
+	width: 200px;
+	height: 60px;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: rgb(8, 8, 8);
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+		background-color: blue;
+      }
+
+      .main-content .left-content {
+        background-color: rgb(47, 0, 255);
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+		let arr =[
+		'Exercicio 5.2'
+	]
+     let htmlId = document.querySelector('body');
+	 let index = arr[0];
+	let first = document.createElement('h1');
+	first.className ="title";
+	first.innerText = index;
+	htmlId.appendChild(first);
+		let primeiro = document.querySelector('body');
+		let segundo = document.createElement('main');
+		segundo.className ="main-content";
+		primeiro.appendChild(segundo);
+			let tagOne = document.querySelector('main');
+			let tagTwo = document.createElement('section');
+			tagTwo.className = "center-content";
+			tagOne.appendChild(tagTwo);
+				let tagFive =[
+					'Criando elementos de forma dinamica'
+				]
+				let tagSix = tagFive[0];
+				let tagThree = document.querySelector('section');
+				let tagFour = document.createElement('p');
+				tagFour.innerText = tagSix;
+				tagThree.appendChild(tagFour);
+					let tagSeven = document.querySelector('main');
+					let tagEight = document.createElement('section');
+					tagEight.className ="left-content";
+					tagSeven.appendChild(tagEight);
+					let tagNine = document.querySelector('main');
+					let tagTen = document.createElement('section');
+					tagTen.className ="right-content";
+					tagNine.appendChild(tagTen);
+						let tagEleven = document.querySelector('section');
+						let tagTwoTen = document.createElement('img');
+						tagTwoTen.src ="https://picsum.photos/200";
+						tagEleven.className ="left-content";
+						tagEleven.appendChild(tagTwoTen);
+							let numero = [
+								'1',
+								'2',
+								'3',
+								'4',
+								'5',
+								'6',
+								'7',
+								'8',
+								'9',
+								'10'
+							];
+							let num = document.querySelector('section');
+							num.className ="left-content";
+							let ul = document.createElement('ul');
+							num.appendChild(ul);
+
+							let numRight = document.querySelector('ul');
+							numRight.className ="ul-list";
+							for (let index = 0; index < numero.length; index += 1){
+								let home = numero[index];
+								let katNum = document.createElement('li');
+								katNUm.className ="li-class";
+								
+								katNum.innerText = home;
+								numRight.appendChild(katNum);
+							}
+							let numeroThree = [
+								'numeros',
+								'seguintes',
+								'sao'
+							]
+							let numeroOne = document.querySelector('main');
+							
+							for (index = 0; index < numeroThree.length; index += 1){ 
+							let numeroFour = numeroThree[index];
+							let numeroTwo = document.createElement('h3');
+							numeroTwo.className ="description";
+							numeroTwo.innerText = numeroFour;
+							numeroOne.appendChild(numeroTwo);
+							
+							}
+							let numeroImp = document.querySelectorAll('.li-class');
+								for(index = 0; index < numeroImp.length; index += 1){
+									let element = numeroImp[index];
+									if(element.innerText.includes('9' && '10')){
+										numRight.removeChild(element);
+									}
+								}
+							
+							
+    </script>
+  </body>
+</html>

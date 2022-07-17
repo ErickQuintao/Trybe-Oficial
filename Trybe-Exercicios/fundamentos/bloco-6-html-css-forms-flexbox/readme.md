@@ -1,0 +1,1 @@
+<p>aprender um css mais avançado e aprender fazer uma pagina mais adaptavel para os diferentes formatos de tela</p>

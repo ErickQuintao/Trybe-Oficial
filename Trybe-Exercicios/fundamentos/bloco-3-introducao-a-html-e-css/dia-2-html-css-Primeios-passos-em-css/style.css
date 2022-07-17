@@ -1,0 +1,31 @@
+#extint{
+	color:rgb(4, 0, 255)
+	font-family:sans-serif;
+	font-size: 3em	;	
+}
+.list-style{
+ background-color: rgb(253, 2, 2);
+ font-weight: bold;
+ font-style: italic;
+
+}
+body{
+ font-size: 20px;
+}
+#eri{
+ font-weight: bold;
+ font-size: 20px;
+ text-decoration: center;
+ line-height: 45px;
+ background-color: blue;
+ font-family: cursive,monospace;
+ color: white;
+}
+#os{
+ color: yellow;
+}
+#is {
+ color: yellowgreen;
+}
+#as{
+ color: blue;

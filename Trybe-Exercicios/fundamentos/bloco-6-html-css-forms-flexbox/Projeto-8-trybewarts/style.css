@@ -1,0 +1,250 @@
+html {
+	box-sizing: border-box;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+  }
+  
+ .header {
+	display: flex;
+	background-color: rgb(50, 167, 145);
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+  }
+  .trybewarts-header-logo{
+	  display: flex;
+	  position: absolute;
+	  width: 50px;
+	  height: 50px;
+	  top: 2%;
+	  left: 3%;
+
+  }
+  .trybewarts-login{
+	  display: flex;
+	  position: absolute;
+	  top: 3%;
+	  left: 63%;
+	  height: 40px;
+	
+  }
+  #input-senha{
+	  display: flex;
+	  border-radius: 10px;
+	  padding: 10px;
+	  width: 180px;
+	  height: 40px;
+	  padding: 10px;
+	  
+  }
+  #input-Email{
+	display: flex;
+	border-radius: 10px;
+	width: 180px;
+	height: 40px;
+	padding: 10px;
+  }
+  #button{
+	  display: flex;
+	  border-radius: 10px;
+	  width: 100px;
+	  align-items: center;
+	  justify-content: center;
+	  height: 40px;
+	  padding: 10px;
+	  background-color: blueviolet;
+	  color: white;
+
+	  
+  }
+  #trybewarts-header-title{
+	  display: flex;
+	  position: absolute;
+	 left: 37%;
+	 color: white;
+  }
+  #evaluation-form{
+	  display: flex;
+	  width: 675px;
+	  flex-direction: column;
+  }
+  #trybewarts-forms-logo{
+	  display: flex;
+	  position: absolute;
+	  height: 500px;
+	  left: 63%;
+	  bottom: 4%;
+  }
+  #input-name{
+display: flex;
+position: absolute;
+ left: 10%;
+ bottom: 74%;
+ width: 200px;
+ height: 30px;
+ border-radius: 10px;
+ border: solid 1px black;
+  }
+  #input-lastname{
+	  display: flex;
+	  position: absolute;
+	  left: 40%;
+	  bottom: 74%;
+	  width: 200px;
+	  height: 30px;
+	  border-radius: 10px;
+	  border: solid 1px black;
+  }
+  #input-email{
+	  display: flex;
+	  position: absolute;
+	  bottom: 50%;
+	  left: 10%;
+	  bottom: 67%;
+	  width: 200px;
+	  height: 30px;
+	  border-radius: 10px;
+	  border: solid 1px black;
+  }
+  #house{
+	  display: flex;
+	  position: absolute;
+	  bottom: 67%;
+	  left: 40%;
+	  width: 200px;
+	  height: 30px;
+	  border-radius: 10px;
+	  background-color: white;
+	  border: solid 1px black;
+  }
+  #label-family{
+	  display: flex;
+	  position: absolute;
+	  bottom: 60%;
+	  left: 10%;
+  }
+  #family1{
+	display: flex;
+	position: absolute;
+	bottom: 55%;
+	left: 10%;
+  }
+  #family2{
+	display: flex;
+	position: absolute;
+	bottom: 50%;
+	left: 10%;
+  }
+  #family3{
+	display: flex;
+	position: absolute;
+	bottom: 45%;
+	left: 10%;
+  }
+  #label-content{
+	  display: flex;
+	  position: absolute;
+	  bottom: 58%;
+	  left: 40%;
+  }
+  #first{
+	display: flex;
+	position: absolute;
+	bottom: 53%;
+	left: 40%;
+  }
+  #second{
+	display: flex;
+	position: absolute;
+	bottom: 53%;
+	left: 45%;
+  }
+  #three{
+	display: flex;
+	position: absolute;
+	bottom: 53%;
+	left: 50%;
+  }
+  #four{
+	display: flex;
+	position: absolute;
+	bottom: 49%;
+	left: 40%;
+  }
+  #five{
+	display: flex;
+	position: absolute;
+	bottom: 49%;
+	left: 45%;
+  }
+  #six{
+	display: flex;
+	position: absolute;
+	bottom: 49%;
+	left: 50%;
+  }
+  #label-rate{
+	display: flex;
+	position: absolute;
+	bottom: 39%;
+	left: 10%;
+  }
+  #seven{
+	  display: flex;
+	  position: absolute;
+	  bottom: 39%;
+	left: 26%;
+  }
+  #text-span{
+	  display: flex;
+	  position: absolute;
+	  bottom: 34%;
+	  left: 10%;
+  }
+  #textarea{
+	display: flex;
+	position: absolute;
+	bottom: 19%;
+	left: 10%;
+	width: 630px;
+	height: 100px;
+  }
+  #label-final{
+	display: flex;
+	position: absolute;
+	bottom: 15%;
+	left: 10%;
+  }
+  #agreement {
+	display: flex;
+	position: absolute;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	background-color: blueviolet;
+	color: white;
+	width: 630px;
+	height: 20px;
+	left: 10%;
+	bottom: 10%;
+
+  }
+  #footer{
+	  display: flex;
+	  position: absolute;
+	  top: 2%;
+	left: 42%;
+	color: white;
+  }
+  #footer-main{
+	  display: flex;
+	  position: absolute;
+	  background-color: black;
+	  width: 100%;
+	  height: 40px;
+	  bottom: 0%;
+  }

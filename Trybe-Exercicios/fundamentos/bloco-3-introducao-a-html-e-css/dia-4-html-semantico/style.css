@@ -1,0 +1,38 @@
+.stomatopada{
+	font-weight: bold;
+	text-align: center;
+	line-height: 25px;
+}
+.lutador{
+	text-align: center;
+	font-weight: bold;
+	line-height: 25px;
+	
+}
+.visao{
+	text-align: center;
+	font-weight: bold;
+	line-height: 25px;
+}
+.familias{
+	position: relative;
+	left: 550px;
+	font-weight: bold;
+	line-height: 25px;
+
+}
+.RF{
+	position: relative;
+	left: 550px;
+}
+.roda{
+    text-align: center;
+	font-weight: bold;
+}
+.lin{
+	position: relative;
+	left: 470px;
+}
+h1{
+	text-align: center;
+}

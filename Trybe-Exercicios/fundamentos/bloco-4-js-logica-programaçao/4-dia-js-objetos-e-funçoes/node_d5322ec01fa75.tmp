@@ -1,0 +1,8 @@
+function arrayOfNumbers(vector){
+	vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
+	for (let index in vector){  
+		let num = index.length
+		if(num % 2 === 0 ){
+		  console.log( num)		}
+	}
+arrayOfNumbers()

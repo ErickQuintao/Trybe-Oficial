@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  .the-colors {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+		position: relative;
+		left: 500px;
+  }
+  .the-colors .ball {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	
+  }
+  #title{
+	text-align: center;
+}
+span{
+	text-align: center;
+	position: relative;
+	left: 630px;
+}
+#answer{
+	text-align: center;
+}
+#score{
+	position: relative;
+	left: 640px;
+}
+button{
+	text-align: center;
+	position: relative;
+	left: 640px;
+}
+

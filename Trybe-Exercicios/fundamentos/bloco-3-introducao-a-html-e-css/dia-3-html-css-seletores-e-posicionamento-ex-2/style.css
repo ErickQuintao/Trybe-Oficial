@@ -1,0 +1,43 @@
+ol{
+	background-color: yellow;
+}
+.par{
+	background-color: green;
+}
+.impar{
+	text-transform: lowercase;
+}
+
+.vermelho{
+	background-color: red;
+}
+ul,ol{
+	font-size: 20px;
+}
+div{
+	color: blue;
+}
+ul div .tue {
+  background-color: purple;
+}
+
+#uint:hover{
+  color:  green;
+  font-weight: bold;
+} 
+#laranja:hover{
+	color:  rgb(255, 145, 0);
+	font-weight: bold;
+  } 
+#verde:hover{
+	color:  green;
+	font-weight: bold;
+  } 
+#preta:hover{
+	color:  rgb(0, 0, 0);
+	font-weight: bold;
+  } 
+#amarela:hover{
+	color:  rgb(240, 236, 6);
+	font-weight: bold;
+  } 

@@ -1,0 +1,1 @@
+<p>aprender funções ja prontas que ajudam a fazer um codigo com menos linhas</p>

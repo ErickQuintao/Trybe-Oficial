@@ -1,0 +1,154 @@
+html {
+	box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  .first{ 
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ .second{  
+	 display: flex;
+	 align-items: stretch;
+	 justify-content: space-around;
+ }
+ @media screen and (max-width:400px) {
+	h1,h2{
+		font-size:25px;
+		
+	} 
+	aside,article{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.three{
+		display: flex;
+		margin: 10%;
+	}
+	p,li{
+		line-height: 25px;
+		font-size: 20px;
+	}
+	.first{ 
+		display:flex;
+		font-size: 22px;
+		line-height: 120px;
+}
+article p{
+	display: flex;
+	font-size: 30px;
+	line-height: 35px;
+	margin: 5%;
+}
+footer{
+	display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		margin: 10%;
+}
+@media screen and   (min-width:400px) and (max-width: 599px){
+	p.first{
+		display: flex;
+		font-size: 50px;
+	}
+	p.article{
+		display: flex;
+		font-size: 40px;
+		line-height: 35px;
+		margin: 5%;
+
+	}
+}
+ }
+ @media screen and (min-width:600px) and (max-width: 900px) {
+	h1,h2{
+		font-size:50px;
+		
+	} 
+	aside,article{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.three{
+		display: flex;
+		margin: 10%;
+	}
+	p,li{
+		line-height: 45px;
+		font-size: 30px;
+	}
+	.first{ 
+		display:flex;
+		font-size: 40px;
+		line-height: 120px;
+}
+article p{
+	display: flex;
+	font-size: 25px;
+	line-height: 32px;
+	margin: 5%;
+}
+footer{
+	display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		margin: 10%;
+}
+
+ }
+ @media screen and (min-width:900px)  {
+	h1,h2{
+		font-size:80px;
+		
+	} 
+	aside,article{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.three{
+		display: flex;
+		margin: 10%;
+	}
+	p,li{
+		line-height: 65px;
+		font-size: 50px;
+	}
+	.first{ 
+		display:flex;
+		font-size: 80px;
+		line-height: 120px;
+}
+article p{
+	display: flex;
+	font-size: 40px;
+	line-height: 55px;
+	margin: 5%;
+}
+footer{
+	display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		margin: 10%;
+}
+
+ }
+
+
+
